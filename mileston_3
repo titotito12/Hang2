@@ -1,0 +1,34 @@
+import random
+
+word_list = ["apple","banana","cherry","Mango","pear"]
+print(random.choice(word_list))
+usrInput = ''
+
+while True:
+    usrInput = input("Enter a single character as input: ")
+    if len(usrInput) == 1:
+        print(f'Your single character input was: {usrInput}')
+        break
+    print("Please enter a single character to continue\n")
+#  Main Loop
+   print("Welcome to Hangman")
+   print("Try to guess the Word")
+   while wrong_guesses<MAX_WRONG
+   and current_guess != word:
+   print(HANGMAN[wrong_guesses])
+   print("You have used the following letters: ", used_letters)
+   print("So far, the word is: ", current_guess)
+   guess = input("Enter your letter guess:")
+   guess = guess.upper()
+  # Check if the letter was already used
+   while guess in used_letters:
+     print("You have already guessed that letter", guess)
+     guess = input("Enter your letter guess:")
+     guess = guess.upper()
+# Add a new guessed letter to the list of letters.
+    used_letters.append(guess)
+# check guess
+if guess in word:
+  print("You have guessed correctly!")
+ # Give a new version of the word with mixed letters and dashes
+
